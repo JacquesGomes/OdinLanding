@@ -1,0 +1,156 @@
+/*============== BASE =====================*/
+
+* {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*============== HEADER =====================*/
+
+.header-hero{
+    background-color: #1F2937;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 75%;
+    margin: auto;
+    padding: 20px 0;
+    color: #F9FAF8;
+}
+
+.header-nav{
+    display: flex;
+    gap: 20px;
+}
+
+/*============== HERO =====================*/
+
+.first-cta{
+    display: flex;
+    max-width: 75%;
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+
+.first-cta-text{
+    width: 50%;
+    padding-right: 25px;
+}
+
+.first-cta-img{
+    width: 50%;
+    text-align: center;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*============== FIRST SECTION =====================*/
+
+.first-section{
+    max-width: 70%;
+    margin: auto;
+    margin-bottom: 90px;
+}
+
+.first-section-title{
+    text-align: center;
+    padding: 30px;
+}
+
+.first-section-row{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+.first-sec-img{
+    width: 120px;
+    height: 120px;
+    border: 2px solid #3882F6;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.first-section-text{
+    margin-top: 10px;
+}
+
+/*============== FIRST SECTION =====================*/
+
+.fill{
+    background-color: #E5E7EB;
+}
+
+.fill-content{
+    max-width: 65%;
+    margin: auto;
+    padding: 90px 0;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.fill h3{
+    text-align: right;
+    margin-right: 20px;
+}
+
+/*============== LAST CTA =====================*/
+
+.last-cta{
+    padding: 60px 90px;
+    margin: 60px auto;
+    max-width: 60%;
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+/*============== FOOTER =====================*/
+
+.footer{
+    padding: 30px 0;
+    text-align: center;
+    background-color: #1F2937;
+    color: #fff;
+}
+
+
+
+/*============== MEDIA QUERIES =====================*/
+
+@media (max-width: 768px){
+    .first-section-row{
+        flex-direction: column;
+    }
+
+    .first-sec-img{
+        margin: auto;
+    }
+
+    .first-section-text{
+        max-width: 60%;
+        margin: auto;
+    }
+}
+
